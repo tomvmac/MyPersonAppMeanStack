@@ -1,0 +1,48 @@
+<!-- public/index.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+
+    <title>Person App - Mean Stack Demo</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- custom styles -->
+
+    <!-- JS -->
+    
+    <!-- Angular Libs -->
+    <script src="libs/angular/angular.min.js"></script>
+    <script src="libs/angular-route/angular-route.min.js"></script>
+
+    <!-- Person App Libs -->
+    <script src="js/mainApp.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/controllers/listPersonController.js"></script>
+    <script src="js/controllers/createPersonController.js"></script>
+    <script src="js/controllers/updatePersonController.js"></script>
+
+
+</head>
+
+<body>
+    <h2>Welcome the Persons App - Mean Stack Demo</h2>
+    <p></p>
+    <div ng-app="mainApp" ng-controller="listPersonController">
+
+        <!-- Add your site or application content here -->
+        <div class="container" ng-view=""></div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>

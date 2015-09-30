@@ -1,0 +1,10 @@
+TODO:
+
+Angular:
+
+1.  Routing - http://viralpatel.net/blogs/angularjs-routing-and-views-tutorial-with-example/
+
+2. bootstrap styling
+
+3. real time socket io
+
